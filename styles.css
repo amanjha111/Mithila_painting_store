@@ -1,0 +1,97 @@
+/* Reset styles */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #e4dde7;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-nav-item {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cart-icon {
+    width: 24px;
+    height: auto;
+}
+
+.cart-quantity {
+    background-color: #e4dde7;
+    color: black;
+    border-radius: 12px;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    min-width: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+.product {
+    border: 7px solid #676631;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 50%;
+    height: auto;
+    border: 25px solid #e8b90e;
+
+    
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+section#contact {
+    margin: 2rem 0;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithila Painting Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mithila Painting Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li class="cart-nav-item">
+                    <a href="cart.html">
+                        <img src="cart.jpg.png" alt="Cart" class="cart-icon">
+                        <span id="cart-quantity" class="cart-quantity">0</span>
+                    </a>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section id="product-list">
+            <div class="product">
+                <img src="Mahadev Swayamvar.jpg" alt="Painting 1">
+                <h2>Mahadev Swayamvar</h2>
+                <p>$2500</p>
+                <button onclick="addToCart('Painting 1', 2500)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="krishna sudama ka charan dhota hue.jpg" alt="Painting 2">
+                <h2>krishna sudama ka charan dhota hue</h2>
+                <p>$2850</p>
+                <button onclick="addToCart('Painting 2', 2850)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="raas leela.jpg" alt="Painting 3">
+                <h2>raas leela</h2>
+                <p>$3150</p>
+                <button onclick="addToCart('Painting 3', 3150)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Radha krishna rass.jpg" alt="Painting 4">
+                <h2>Radha krishna rass</h2>
+                <p>$3150</p>
+                <button onclick="addToCart('Painting 4', 3150)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="RadhaKrishna Raasleela(राधे और कृष्ण रास लीला).jpg" alt="Painting 5">
+                <h2>RadhaKrishna Raasleela(राधे और कृष्ण रास लीला)</h2>
+                <p>$2650</p>
+                <button onclick="addToCart('Painting 5', 2650)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Ram ji ka parichan.jpg" alt="Painting 6">
+                <h2>Ram ji ka parichan</h2>
+                <p>$4150</p>
+                <button onclick="addToCart('Painting 6', 4150)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Ram sita full lohori.jpg" alt="Painting 7">
+                <h2>Ram sita full lohori</h2>
+                <p>$2750</p>
+                <button onclick="addToCart('Painting 7', 2750)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Shree Krishna ji matka phodta hue.jpg" alt="Painting 8">
+                <h2>Shree Krishna ji matka phodta hue</h2>
+                <p>$2500</p>
+                <button onclick="addToCart('Painting 8', 2500)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Shree krishna sudama ka charan dhota hue.jpg" alt="Painting 9">
+                <h2>Shree krishna sudama ka charan dhota hue</h2>
+                <p>$ 3500</p>
+                <button onclick="addToCart('Painting 9', 3500)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: mithilapaintingstoremdb@gmail.com</p>
+        <p>Phone:  9973599778</p>
+        <p>Address: aadarsh nagar madhubani Bihar 847211,India</p>
+    </section>
+
+    <footer>
+        <p>&copy; Mithila Painting Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
